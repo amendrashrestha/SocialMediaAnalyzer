@@ -9,21 +9,21 @@ package model;
  * @author Batman
  */
 public class Posts {
-    private String date;
+    private String time;
     private String content;
 
     /**
      * @return the date
      */
-    public String getDate() {
-        return date;
+    public String getTime() {
+        return time;
     }
 
     /**
      * @param date the date to set
      */
-    public void setDate(String date) {
-        this.date = date;
+    public void setTime(String time) {
+        this.time = time;
     }
 
     /**

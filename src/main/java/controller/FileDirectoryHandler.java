@@ -72,7 +72,7 @@ public class FileDirectoryHandler {
         //System.out.println("Old file: " + oldFile);
         if(fileName.startsWith("http")){
             String dirName = fileName.substring(1, fileName.indexOf("http"));
-         newFile = new File("/" + dirName + newFileName);
+         newFile = new File(dirName + newFileName);
         System.out.println("New file: " + newFile);
         if (oldFile.renameTo(newFile)) {
             return newFile;
